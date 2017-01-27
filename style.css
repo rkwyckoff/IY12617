@@ -13,24 +13,128 @@
 .clearfix {
   overflow: auto;
 }
-.box {
-  /*display: inline-block;*/
-  width: 50%;
-  height: 50px;  
-  float: left;
-  text-align: left;
+.navbar {
+  margin-bottom: 5px;
+  border: 1px lightgrey solid;
+}
+.header {
+  height: 325px;
+  border: 1px solid lightgrey;
+  background-image: url(background.jpg)
+}
+.banners {
+  height: 75px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.banner1 {
+  height:  40px;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 20px;
+  margin-top: 40px;
+  color: white;
+}
+.banner2 {
+  height:  40px;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 3px;
+  color: white;
+}
 
+h1 {
+  font-size:65px;
+  margin: 5px 10px 0px 10px;
+  }
+h3 {
+  padding-bottom: 0px;
+  margin-top: 3px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+h5 {
+  margin: 10px 10px 10px 10px;
+}
+ul {
+  text-decoration: none;
+  jlist-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  border: 1px lightgrey solid;
 }
 p {
 width: 100%;
   text-align: center;
   padding: none;
   margin: none;
-
+  font-size: 30px;
 }
-.row1 {
-
+.offers {
+  margin: 0px 8% 0px 8%;
+height: 550px;
+text-align: center;
 }
+.offers li {
+  list-style: none;
+}
+.offers ul {
+  padding: 0px;
+}
+.features li {
+  border: 1px lightgrey solid;
+  padding: 10px 10px 10px 10px;
+}
+
+.offer-row {
+  width: 250px;
+  padding: 10px;
+  margin: 20px;
+}
+
 .bottom-content {
-  height:40px;
+  /*height:500px;
+  width: 800px;*/
+  /*margin:  20px 20px 20px 20px;*/
+  /*margin: 10px 10px 10px 30px;*/
+  margin: 0px 160px;
+  text-align: center;
+  }
+
+  .box {
+    /*display: inline-block;*/
+    width: 250px;
+    height: 200px;
+    /*float: left;
+    text-align: left;*/
+    border: 1px solid lightgrey;
+    margin: 20px;
+    display:inline-block;
+  }
+.choose {
+  height: 75px;
+  border: solid lightgrey 1px;
+}
+.choose-button {
+  padding: 25px 25px 25px 25px;
+}
+.market1 {
+  border: solid 1px lightgrey;
+  height: 175px;
+  background-color: grey;
+}
+.market2 {
+  border: solid 1px lightgrey;
+  height: 175px;
+  background-color: green;
+}
+.market3 {
+  border: solid 1px lightgrey;
+  height: 175px;
+  background-color: red;
+}
+
 }
