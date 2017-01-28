@@ -49,17 +49,23 @@
 }
 
 h1 {
-  font-size:65px;
-  margin: 5px 10px 0px 10px;
+  font-size:75px;
+  margin: 0px 5px 0px 5px;
+  font-weight: normal;
+
+
   }
 h3 {
   padding-bottom: 0px;
   margin-top: 3px;
-  margin-bottom: 30px;
-  font-size: 18px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  letter-spacing: .005em;
 }
 h5 {
-  margin: 10px 10px 10px 10px;
+  margin: 10px;
+  margin-top: 25px;
+
 }
 ul {
   text-decoration: none;
@@ -127,18 +133,23 @@ padding-top: 30px;
   height: 180px;
   background-color: #519251;
   color: white;
+  letter-spacing: .25em;
+
+
 }
 .market2 {
   border: solid 1px lightgrey;
   height: 180px;
   background-color: #2C4985;
   color: white;
+  letter-spacing: .25em;
 }
 .market3 {
   border: solid 1px lightgrey;
   height: 180px;
   background-color: #111111;
   color: white;
+  letter-spacing: .25em;
 }
 
 .bottom-content {
@@ -151,13 +162,15 @@ padding-top: 30px;
   margin-right: 10px;
   height:380px;
   width:825px;
+  border : none;
+
 }
     .box {
     /*display: inline-block;*/
     width: 44%;
     height: 160px;
     text-align: left;
-    border: 1px solid lightgrey;
+    border: none;
     margin: auto;
     margin-left: auto;
     /*margin: 0px 10px 0px 0px;*/
@@ -172,7 +185,7 @@ padding-top: 30px;
     padding: 2px;
     margin: 5px;
     font-size: 13px;
-    border:  1px lightgrey solid;
+    border:  none;
     letter-spacing: .03em;
     line-height: 1.6em;
   }
@@ -197,9 +210,14 @@ padding-top: 30px;
 
   }
   .footer-title {
-    font-size: 16px;
-    color: white;
-    padding: 20px 250px;
+    font-size: 14px;
+    color: grey;
+    padding: 20px 280px;
     float: left;
-
-}
+    letter-spacing: .0009em;
+    font-weight: lighter;
+  }
+  .footer-title a {
+    color: white;
+    border: none;
+  }
