@@ -17,8 +17,22 @@
   overflow: auto;
 }
 .navbar {
-  margin-bottom: 5px;
   border: 1px lightgrey solid;
+  border: none;
+  height: 24px;
+  margin: 3px;
+}
+span.nav-item {
+  margin: 5px;
+  padding-bottom: 10px;
+}
+
+.navbar span.nav-item a {
+  font-size: 13px;
+  margin: 0px 10px;
+  border: none;
+  color:grey;
+
 }
 .header {
   height: 325px;
@@ -47,13 +61,10 @@
   margin-top: 3px;
   color: white;
 }
-
 h1 {
   font-size:75px;
   margin: 0px 5px 0px 5px;
   font-weight: normal;
-
-
   }
 h3 {
   padding-bottom: 0px;
@@ -65,29 +76,24 @@ h3 {
 h5 {
   margin: 10px;
   margin-top: 25px;
-
 }
 ul {
   text-decoration: none;
   jlist-style: none;
 }
-
 a {
   text-decoration: none;
   color: black;
   border: 1px lightgrey solid;
 }
-
 .offers {
   margin: 0px 8% 12px 8%;
-height: 500px;
-text-align: center;
-width: 825px;
-padding-left:50px;
-padding-top: 30px;
-
+  height: 500px;
+  text-align: center;
+  width: 825px;
+  padding-left:50px;
+  padding-top: 30px;
 }
-
 
 .offers li {
   list-style: none;
@@ -101,7 +107,6 @@ padding-top: 30px;
   height: 15px;
   background-color: #F7F7F7;
   font-size: 14px;
-
 }
 
 .offer-row {
@@ -112,20 +117,17 @@ padding-top: 30px;
 .choose {
   height: 23px;
   border: solid lightgrey 1px;
-  padding: 25px;
+  padding: 20px;
   text-align: center;
 }
-#choose.choose-button {
-  height: 30px;
-  width: 60px;
-  margin: 0px;
 }
+.choose-button {
+  height:30px
 
+}
 .choose-button a {
-
   border-radius: 1em;
-
-
+  height: 40px;
 
 }
 .market1 {
@@ -134,7 +136,6 @@ padding-top: 30px;
   background-color: #519251;
   color: white;
   letter-spacing: .25em;
-
 
 }
 .market2 {
@@ -151,12 +152,8 @@ padding-top: 30px;
   color: white;
   letter-spacing: .25em;
 }
-
 .bottom-content {
-  /*height:500px;
-  width: 800px;*/
-  /*margin:  20px 20px 20px 20px;*/
-  /*margin: 10px 10px 10px 30px;*/
+
   text-align: center;
   margin-left:150px;
   margin-right: 10px;
@@ -166,15 +163,12 @@ padding-top: 30px;
 
 }
     .box {
-    /*display: inline-block;*/
     width: 44%;
     height: 160px;
     text-align: left;
     border: none;
     margin: auto;
     margin-left: auto;
-    /*margin: 0px 10px 0px 0px;*/
-    /*display:inline-block;*/
     float: left;
     padding:14px;
   }
@@ -203,8 +197,6 @@ padding-top: 30px;
     height: 60px;
     width:97%;
     margin: 0px 5px;
-
-
     background-color: black;
     clear: both;
 
